@@ -8,6 +8,8 @@ For an example of something similar to what we are going to be doing, check out 
 
 [![Grind Mode Cypher Shop](https://img.youtube.com/vi/q8vUTOXhCdw/0.jpg)](https://www.youtube.com/watch?v=q8vUTOXhCdw)
 
+I blame [DorianDevelops](https://www.youtube.com/c/DorianDevelops) and [Jeff Geerling](https://www.youtube.com/channel/UCR-DXc1voovS8nhAvccRZhg) for keeping me so motived. They are great people worth watching on YouTube.
+
 ## Introduction
 
 In this course you will learn how to put together a complete e-commerce store using WordPress. You will learn how to:
@@ -46,6 +48,14 @@ In this course you will learn how to put together a complete e-commerce store us
 [Cloudflare](https://dash.cloudflare.com/) | [GMail](https://mail.google.com/mail/u/0/#inbox) | [namecheap](https://www.namecheap.com/)
 
 I will be using wpcommercepro85 as the name for a lot of my examples, so you can just replace it with whatever name you are using. If you don't have one and can't think of one you can generate something [here](https://codepen.io/rstacruz/full/wJyaJb/).
+
+In your web browser, go to [namecheap.com](https://www.namecheap.com/) and sign up for a new account if you don't already have one.
+
+![namecheap](static/signup-namecheap.png)
+
+The sign up process should look something like this:
+
+![namecheap](static/signup-namecheap-2.png)
 
 ## Set up the infrastructure needed to host your store with DigitalOcean
 
