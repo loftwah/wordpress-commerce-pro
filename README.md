@@ -59,11 +59,11 @@ I will be using wpcommercepro85 as the name for a lot of my examples, so you can
 
 ## Set up your WooCommerce store
 
-## Set up email with Google and AWS
+## Set up email with Google and AWS (Amazon Web Services)
 
 ## Set up payment with PayPal and Stripe
 
-## Set up integration with Printful
+## Set up integration with Printful and sell custom print on demand merchandise
 
 ## Optimise WordPress
 
