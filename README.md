@@ -4,6 +4,10 @@ WordPress Commerce Pro is a course that will teach you how to build a successful
 
 I haven't decided on exactly what kind of content will be covered here, but it will be freely accesible until it isn't. I'm not going to pretend this isn't for some extra money on the side, but I do promise to give this my all and provide good quality content that you can actually learn from and that I do actually know what I am talking about, so please don't hesitate to contact me if you have any questions and when this isn't free there will be a full re-fund period with no questions asked.
 
+For an example of something similar to what we are going to be doing, check out this [video](https://www.youtube.com/watch?v=q8vUTOXhCdw).
+
+[![Grind Mode Cypher Shop](https://img.youtube.com/vi/q8vUTOXhCdw/0.jpg)](https://www.youtube.com/watch?v=q8vUTOXhCdw)
+
 ## Introduction
 
 In this course you will learn how to put together a complete e-commerce store using WordPress. You will learn how to:
