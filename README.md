@@ -39,6 +39,8 @@ In this course you will learn how to put together a complete e-commerce store us
 
 ## Think of a name and register a domain name with namecheap
 
+I will be using wpcommercepro85 as the name for a lot of my examples, so you can just replace it with whatever name you are using. If you don't have one and can't think of one you can generate something [here](https://codepen.io/rstacruz/full/wJyaJb/).
+
 ## Set up the infrastructure needed to host your store with DigitalOcean
 
 ## Set up a DNS server with Cloudflare to connect your domain name to your server
