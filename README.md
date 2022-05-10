@@ -43,6 +43,16 @@ In this course you will learn how to put together a complete e-commerce store us
 - Linux and the basics of system administration
 - DevOps, GitOps and cloud native development with Docker and Kubernetes
 
+## I am using GMail for my examples so I will create an account
+
+These are the steps to create a Google account if you haven't seen it already or don't have one. We will be creating a new account for our business.
+
+![google](static/create-google-account.png)
+
+Fill out the required details and click the button to create your account.
+
+![google](static/create-google-account-2.png)
+
 ## Think of a name and register a domain name with namecheap
 
 [Cloudflare](https://dash.cloudflare.com/) | [GMail](https://mail.google.com/mail/u/0/#inbox) | [namecheap](https://www.namecheap.com/)
@@ -57,9 +67,31 @@ The sign up process should look something like this:
 
 ![namecheap](static/signup-namecheap-2.png)
 
+Within namecheap you are able to search for domains that you can purchace. Search for the domain that you would like to use and follow the typical steps to purchase it.
+
+![namecheap](static/namecheap-search.png)
+
+I am searching for and buying the domain wpcommerce.pro.
+
+![namecheap](static/namecheap-buy-domain.png)
+
+Fill out the form and click the purchase button.
+
+![namecheap](static/namecheap-buy-domain-2.png)
+
+We will be configuring our namecheap domain name servers to use our own DNS (Domain Name System) servers, which will be provided by Cloudflare.
+
 ## Set up the infrastructure needed to host your store with DigitalOcean
 
-## Set up a DNS server with Cloudflare to connect your domain name to your server
+## Set up DNS Cloudflare to connect your domain name to your server
+
+Create an account with Cloudflare if you don't already have one.
+
+![cloudflare](static/cloudflare-3.png)
+
+When you're logged into Cloudflare, add a new site and choose the free plan. You will be able to add a domain name to your site and get the details required for configuring it within namecheap's DNS management console.
+
+![cloudflare](static/cloudflare-5.png)
 
 ## Install and set up WordPress on your server
 
