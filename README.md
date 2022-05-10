@@ -37,6 +37,62 @@ In this course you will learn how to put together a complete e-commerce store us
 - Linux and the basics of system administration
 - DevOps, GitOps and cloud native development with Docker and Kubernetes
 
+## Think of a name and register a domain name with namecheap
+
+## Set up the infrastructure needed to host your store with DigitalOcean
+
+## Set up a DNS server with Cloudflare to connect your domain name to your server
+
+## Install and set up WordPress on your server
+
+## Install the right plugins to enhance your store
+
+## Install the right theme to enhance your store
+
+## Set up your WooCommerce store
+
+## Set up email with Google and AWS
+
+## Set up payment with PayPal and Stripe
+
+## Set up integration with Printful
+
+## Optimise WordPress
+
+## Learn about backups and security
+
+## Learn about SEO (Search Engine Optimision) and how search works
+
+## Maintain your store
+
+## Set up users and roles to delegate effort to other people
+
+## Maintain your infrastructure
+
+## Monitor your store and how to fix problems
+
+## What the fck is social media? (and how to use it)
+
+## Automate social media posts
+
+## Automate social media comments and interactions
+
+## Create a chat bot to interact with your customers
+
+## Automate maintenance tasks
+
+## Scale WordPress
+
+## Build a custom plugin
+
+## Build a custom theme
+
+## Git and GitHub
+
+## Linux and the basics of system administration
+
+## DevOps, GitOps and cloud native development with Docker and Kubernetes
+
 ## License
 
 I have chosen [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) as my license because it is the same as [WordPress](https://wordpress.org) itself.
