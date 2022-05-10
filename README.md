@@ -83,6 +83,18 @@ We will be configuring our namecheap domain name servers to use our own DNS (Dom
 
 ## Set up the infrastructure needed to host your store with DigitalOcean
 
+If you don't already have an account, please sign up with [DigitalOcean](https://digitalocean.com)
+
+![digitalocean](static/digitalocean-signup.png)
+
+You will need a method of payment for this one and the options are card or PayPal.
+
+![digitalocean](static/digitalocean-signup-2.png)
+
+Click through the initial welcome screen and you'll find yourself at the DigitalOcean dashboard. You can change the settings of your project so the naming is more suitable for whatever project you are working on, in my example I will use wpcommercepro85.
+
+![digitalocean](static/digitalocean-1.png)
+
 ## Set up DNS Cloudflare to connect your domain name to your server
 
 Create an account with Cloudflare if you don't already have one.
