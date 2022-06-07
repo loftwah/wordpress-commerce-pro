@@ -121,6 +121,10 @@ You can choose from additional options such as backups, private networking, and 
 
 ![digitalocean](static/do-create-droplet2.png)
 
+Once your droplet is created you can access it from the dashboard, and if you added SSH keys you should be ready to connect to your new server.
+
+![digitalocean](static/do-create-droplet3.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
