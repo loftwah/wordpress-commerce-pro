@@ -115,6 +115,10 @@ Sign into [DigitalOcean](https://cloud.digitalocean.com/) and create a new dropl
 
 ![digitalocean](static/do-create-droplet.png)
 
+If you have SSH keys, you can connect to your droplet with SSH. You can also connect to your droplet with the web interface, or by using a password. In this example I will be using SSH. If you don't have SSH keys and are interested, you can learn to generate them [here](https://lofts.sh/generate-ssh-gpg-keys/).
+
+You can choose from additional options such as backups, private networking, and more. Once you are ready click on the Create Droplet button and your droplet will be created.
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
