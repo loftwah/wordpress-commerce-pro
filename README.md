@@ -111,6 +111,10 @@ Now, because I have been busy and not able to come back to this for nearly a mon
 
 ![support](static/support.png)
 
+Sign into [DigitalOcean](https://cloud.digitalocean.com/) and create a new droplet. You can choose the size of the droplet and the region. In this example we'll use the smallest droplet you can use, but you should size yours accordingly, which we will cover later on in the guide.
+
+![digitalocean](static/do-create-droplet.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
