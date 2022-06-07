@@ -107,6 +107,10 @@ When you're logged into Cloudflare, add a new site and choose the free plan. You
 
 ## Install and set up WordPress on your server
 
+Now, because I have been busy and not able to come back to this for nearly a month, I have found the domain is suspended and I have to go through the support process to get it all back. This is actually kind of cool because it is a very real scenario that you will probably face sometime.
+
+![support](static/support.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
