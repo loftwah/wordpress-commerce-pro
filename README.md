@@ -119,6 +119,8 @@ If you have SSH keys, you can connect to your droplet with SSH. You can also con
 
 You can choose from additional options such as backups, private networking, and more. Once you are ready click on the Create Droplet button and your droplet will be created.
 
+![digitalocean](static/do-create-droplet2.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
