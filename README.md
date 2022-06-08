@@ -173,6 +173,8 @@ rsync --archive --chown=wpcommercepro:wpcommercepro ~/.ssh /home/wpcommercepro
 
 You can disconnect from the session you are logged into with `exit` and then reconnect with `ssh wpcommercepro`. You can now update you SSH config file to use the new user.
 
+### Docker and Docker Compose
+
 I like to use `Docker` on my systems so I can run any workload I need inside a container, rather than on the system itself. This is a great way to get around the limitations of the server.
 
 ```bash
@@ -366,6 +368,42 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 # Output the  version
 docker-compose -v
 ```
+
+### Nginx Proxy Manager
+
+I really like a tool called `Nginx Proxy Manager` that makes using and managing `Nginx` easy. To set it up create a directory called `nginx`, enter it with `cd nginx` and create a file called `docker-compose.yml` with the following contents:
+
+```yaml
+version: "3"
+services:
+  app:
+    image: "jc21/nginx-proxy-manager:latest"
+    restart: unless-stopped
+    ports:
+      # These ports are in format <host-port>:<container-port>
+      - "80:80" # Public HTTP Port
+      - "443:443" # Public HTTPS Port
+      - "81:81" # Admin Web Port
+      # Add any other Stream port you want to expose
+      # - '21:21' # FTP
+
+    # Uncomment the next line if you uncomment anything in the section
+    # environment:
+    # Uncomment this if you want to change the location of
+    # the SQLite DB file within the container
+    # DB_SQLITE_FILE: "/data/database.sqlite"
+
+    # Uncomment this if IPv6 is not enabled on your host
+    # DISABLE_IPV6: 'true'
+
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+```
+
+Save the file and run the `docker-compose up -d` command. It will pul the required files from the internet and should look something like this.
+
+![Nginx Proxy Manager](static/nginx-proxy-manager-1.png)
 
 ## Install the right plugins to enhance your store
 
