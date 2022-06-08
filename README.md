@@ -8,6 +8,10 @@ For an example of something similar to what we are going to be doing, check out 
 
 [![Grind Mode Cypher Shop](https://img.youtube.com/vi/q8vUTOXhCdw/0.jpg)](https://www.youtube.com/watch?v=q8vUTOXhCdw)
 
+This is another somewhat related video that can give an idea of what we'll be covering.
+
+[![Beat Store Video](https://img.youtube.com/v1/nU84fcRRcXc/0.jpg)](https://www.youtube.com/watch?v=nU84fcRRcXc)
+
 I blame [DorianDevelops](https://www.youtube.com/c/DorianDevelops) and [Jeff Geerling](https://www.youtube.com/channel/UCR-DXc1voovS8nhAvccRZhg) for keeping me so motived. They are great people worth watching on YouTube.
 
 ## Introduction
