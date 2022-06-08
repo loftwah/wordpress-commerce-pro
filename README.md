@@ -191,7 +191,7 @@ We will be borrwing quite heavily from the Initial Server Setup tutorial as it w
 
 I have chosen [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) as my license because it is the same as [WordPress](https://wordpress.org) itself.
 
-## References and Resources
+## References, Resources and Further Reading
 
 - [What is DNS? How DNS works](https://www.cloudflare.com/en-au/learning/dns/what-is-dns/)
 
