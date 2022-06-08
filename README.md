@@ -151,6 +151,20 @@ Host wpcommercepro
 
 You should be able to figure out which details to change to customize it for your environment. Now you are ready to connect to your server and set up your WordPress installation. Run the command `ssh wpcommercepro` replacing `wpcommercepro` with the name of your server. It should give you a bunch of information about system load and usage and also your IP address information, along with the prompt for the root account.
 
+We don't want to be working directly as the root user, so we will be using the `wpcommercepro` user.
+
+```bash
+adduser wpcommercepro
+```
+
+Choose a password, fill out the info if you'd like and hit enter and you should be good to go.
+
+To make sure our user is capable of doing the work we need to on the server, make sure the user is an administrator. Add your new user to the `sudo` group.
+
+```bash
+usermod -aG sudo wpcommercepro
+```
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
