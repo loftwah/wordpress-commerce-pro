@@ -131,7 +131,7 @@ Once your droplet is created you can access it from the dashboard, and if you ad
 
 Open the terminal on your system and enter `sudo nano /etc/hosts` and add your IP address along with a friendly name for your server. This way you can easily access your server from the command line without having to remember your IP address. Make sure to save and close whichever text editor you used for these changes. If you have already generated your SSH keys, you should be able to connect with `ssh wpcommercepro` using whatever name you have given your server. If you're anything like me and can't remember how to use SSH enter `curl cht.sh/ssh` for a quick refresher without having to leave your terminal or dig through `man pages`.
 
-- screenshot
+![terminal](static/terminal-1.png)
 
 DigitalOcean provides some fantastic resources so if you're not familiat with the terminal at all and want to follow along with this part of the guide you should check this out as further reading.
 
