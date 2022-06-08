@@ -302,6 +302,21 @@ wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$
 
 If your terminal looks the same as this, you have successfully installed and are now able to use `Docker`.
 
+Next up we will install `Docker-Compose`.
+
+```bash
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose version
+```
+
+You should see the following:
+
+```bash
+wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$ docker-compose --version
+Docker Compose version v2.6.0
+```
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
