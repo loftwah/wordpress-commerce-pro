@@ -165,6 +165,14 @@ To make sure our user is capable of doing the work we need to on the server, mak
 usermod -aG sudo wpcommercepro
 ```
 
+To make sure you can access the server remotely on your new account, copy the `authorized_keys` file from the `root` user to your new account. The easiest way to do this is with the `rsync` tool.
+
+```bash
+rsync --archive --chown=wpcommercepro:wpcommercepro ~/.ssh /home/wpcommercepro
+```
+
+You can disconnect from the session you are logged into with `exit` and then reconnect with `ssh wpcommercepro`. You can now update you SSH config file to use the new user.
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
