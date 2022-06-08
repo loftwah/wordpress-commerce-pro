@@ -252,6 +252,56 @@ wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$
 
 We don't need to worry about rootless mode, but it is an option if you are concerned about security. You should use rootless mode when you are running Docker on a system that is not the same as the system you are running the Docker daemon on.
 
+The next step is to get `Docker` running and in a usable state.
+
+```bash
+sudo service docker start
+sudo systemctl enable docker
+sudo usermod -a -G docker wpcommercepro
+```
+
+Exit and reconnect to the terminal session, and you should be able to test that `Docker` works by running:
+
+```bash
+docker run hello-world
+```
+
+The result should look somewhat like this:
+
+```bash
+wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$ docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete
+Digest: sha256:80f31da1ac7b312ba29d65080fddf797dd76acfb870e677f390d5acba9741b17
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$
+```
+
+If your terminal looks the same as this, you have successfully installed and are now able to use `Docker`.
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
