@@ -439,7 +439,7 @@ git commit -S -a -m "Test a signed commit"
 git config --global commit.gpgsign true
 ```
 
-`GPG` should be installed by default if you are using Ubuntu but if it isn't you'll need to install it.
+`GPG` should be installed by default if you are using `Ubuntu` as your Operating System, but if it isn't you'll need to install it.
 
 ## Linux and the basics of system administration
 
