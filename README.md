@@ -139,6 +139,18 @@ DigitalOcean provides some fantastic resources so if you're not familiat with th
 
 We will be borrwing quite heavily from the Initial Server Setup tutorial as it was an earlier version that I actually learnt to do a lot of this from.
 
+So, assuming that you have your server in the `/etc/hosts` file, you can now add your SSH configuration file at `~/.ssh/config`. The contents of this file for me are as follows:
+
+```bash
+Host wpcommercepro
+    HostName wpcommercepro
+    User root
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+```
+
+You should be able to figure out which details to change to customize it for your environment. Now you are ready to connect to your server and set up your WordPress installation. Run the command `ssh wpcommercepro` replacing `wpcommercepro` with the name of your server. It should give you a bunch of information about system load and usage and also your IP address information, along with the prompt for the root account.
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
@@ -198,3 +210,7 @@ I have chosen [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) as my licens
 ## Sponsor
 
 I am not selling this course in its infancy, so if you find this useful in any way please [support](https://paypal.me/loftwah) if you are able to, it is much appreciated.
+
+```
+
+```
