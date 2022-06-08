@@ -411,6 +411,36 @@ docker-compose -v
 
 ## Git and GitHub
 
+Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. Git is designed for teams to work together on a project, with many people working on the project at the same time. GitHub is a web-based hosting service for version control using Git.
+
+Configure Git
+
+```bash
+git config --global user.name "Dean Lofts"
+git config --global user.email "dean@deanlofts.xyz"
+```
+
+To sign your work with GPG, you can follow the following steps:
+
+```bash
+# Generate a new pgp key: (better to use gpg2 instead of gpg in all below commands)
+gpg --gen-key
+# maybe you need some random work in your OS to generate a key. so run this command: `find ./* /home/username -type d | xargs grep some_random_string > /dev/null`
+# check current keys:
+gpg --list-secret-keys --keyid-format LONG
+# See your gpg public key:
+gpg --armor --export YOUR_KEY_ID
+# YOUR_KEY_ID is the hash in front of `sec` in previous command. (for example sec 4096R/234FAA343232333 => key id is: 234FAA343232333)
+# Set a gpg key for git:
+git config --global user.signingkey your_key_id
+# To sign a single commit:
+git commit -S -a -m "Test a signed commit"
+# Auto-sign all commits globaly
+git config --global commit.gpgsign true
+```
+
+`GPG` should be installed by default if you are using Ubuntu but if it isn't you'll need to install it.
+
 ## Linux and the basics of system administration
 
 ## DevOps, GitOps and cloud native development with Docker and Kubernetes
@@ -426,6 +456,10 @@ I have chosen [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) as my licens
 ## Sponsor
 
 I am not selling this course in its infancy, so if you find this useful in any way please [support](https://paypal.me/loftwah) if you are able to, it is much appreciated.
+
+```
+
+```
 
 ```
 
