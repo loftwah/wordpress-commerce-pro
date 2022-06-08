@@ -250,7 +250,7 @@ WARNING: Access to the remote API on a privileged Docker daemon is equivalent
 wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$
 ```
 
-We don't need to worry about rootless mode, but it is an option if you are concerned about security. You should use rootless mode when you are running Docker on a system that is not the same as the system you are running the Docker daemon on.
+We don't need to worry about rootless mode, but it is an option if you are concerned about security. You should use rootless mode when you are running Docker on a system that is not the same as the system you are running the `Docker` daemon on.
 
 The next step is to get `Docker` running and in a usable state.
 
