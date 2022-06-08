@@ -317,6 +317,56 @@ wpcommercepro@ubuntu-s-1vcpu-1gb-sgp1-01:~$ docker-compose --version
 Docker Compose version v2.6.0
 ```
 
+More advanced users might want to script this process so it can be automated in the future. Here are what those scripts could look like if you wanted to go down that path.
+
+- Shell Script to Install Docker on Ubuntu
+
+```bash
+#!/bin/bash
+set -e
+#Uninstall old versions
+sudo apt-get remove docker docker-engine docker.io containerd runc
+#Update the apt package index:
+sudo apt-get update
+#Install packages to allow apt to use a repository over HTTPS:
+sudo apt-get install -y \\
+    apt-transport-https \\
+    ca-certificates \\
+    curl \\
+    gnupg-agent \\
+    software-properties-common
+# Add docker's package signing key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# Add repository
+sudo add-apt-repository -y \\
+  "deb \[arch=amd64\] https://download.docker.com/linux/ubuntu \\
+  $(lsb\_release -cs) \\
+  stable"
+# Install latest stable docker stable version
+sudo apt-get update
+sudo apt-get -y install docker-ce
+# Enable & start docker
+sudo systemctl enable docker
+sudo systemctl start docker
+# add current user to the docker group to avoid using sudo when running docker
+sudo usermod -a -G docker $USER
+ # Output current version
+docker -v
+```
+
+- Shell Script to Install the latest version of Docker Compose
+
+```bash
+#!/bin/bash
+# get latest docker compose released tag
+COMPOSE\_VERSION=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag\_name' | cut -d\\" -f4)
+sudo curl -L "https://github.com/docker/compose/releases/download/${COMPOSE\_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod a+x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+# Output the  version
+docker-compose -v
+```
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
