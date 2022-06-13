@@ -121,6 +121,10 @@ Add a record for your server, and leave the proxy switched off, for now. We will
 | A     | \*   | your-server-ip | off          | Auto |
 | A     | @    | your-server-ip | off          | Auto |
 
+Once you have added the site, Cloudflare will prompt you to enable `auto HTTPS` and `auto minify`. I usually turn these on, but you can turn them off if you want.
+
+![cloudflare](static/cloudflare-7.png)
+
 ## Install and set up WordPress on your server
 
 Now, because I have been busy and not able to come back to this for nearly a month, I have found the domain is suspended and I have to go through the support process to get it all back. This is actually kind of cool because it is a very real scenario that you will probably face sometime.
