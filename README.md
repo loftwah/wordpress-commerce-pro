@@ -351,7 +351,7 @@ sudo apt-get -y install docker-ce
 sudo systemctl enable docker
 sudo systemctl start docker
 # add current user to the docker group to avoid using sudo when running docker
-sudo usermod -a -G docker $USER
+sudo usermod -aG docker $USER
  # Output current version
 docker -v
 ```
