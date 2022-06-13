@@ -494,15 +494,3 @@ I have chosen [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) as my licens
 ## Sponsor
 
 I am not selling this course in its infancy, so if you find this useful in any way please [support](https://paypal.me/loftwah) if you are able to, it is much appreciated.
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
