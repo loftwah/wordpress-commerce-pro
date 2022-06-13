@@ -125,6 +125,8 @@ Once you have added the site, Cloudflare will prompt you to enable `auto HTTPS` 
 
 ![cloudflare](static/cloudflare-7.png)
 
+From the dashboard of Cloudflare you can get your `Zone ID` and `Account ID`. You'll have to go into your profile settings if you want access to the `API` keys.
+
 ## Install and set up WordPress on your server
 
 Now, because I have been busy and not able to come back to this for nearly a month, I have found the domain is suspended and I have to go through the support process to get it all back. This is actually kind of cool because it is a very real scenario that you will probably face sometime.
