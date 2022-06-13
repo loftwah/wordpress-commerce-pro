@@ -405,6 +405,12 @@ Save the file and run the `docker-compose up -d` command. It will pul the requir
 
 ![Nginx Proxy Manager](static/nginx-proxy-manager-1.png)
 
+One `Nginx Proxy Manager` is up and running you should be able to access it via [this](http://127.0.0.1:81/) URL.
+
+The default credentials are Email address: `admin@example.com` and Password: `changeme`.
+
+![Nginx Proxy Manager](static/nginx-proxy-manager-2.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
