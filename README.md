@@ -127,6 +127,12 @@ Once you have added the site, Cloudflare will prompt you to enable `auto HTTPS` 
 
 From the dashboard of Cloudflare you can get your `Zone ID` and `Account ID`. You'll have to go into your profile settings if you want access to the `API` keys.
 
+Now, you should be able to hit your domain if you have made it through the part where you set up and configured `Nginx Proxy Manager`. If you haven't, make sure to visit that section as it is a requirement from here on out.
+
+![cloudflare](static/nginx-proxy-manager-4.png)
+
+`Congraulations! You have successfully set up your DNS with Cloudflare.`
+
 ## Install and set up WordPress on your server
 
 Now, because I have been busy and not able to come back to this for nearly a month, I have found the domain is suspended and I have to go through the support process to get it all back. This is actually kind of cool because it is a very real scenario that you will probably face sometime.
