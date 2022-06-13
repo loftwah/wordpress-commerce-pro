@@ -497,6 +497,12 @@ You should be able to access WordPress on your web server now. Got to your domai
 
 ![WordPress](static/wordpress-1.png)
 
+Now we can continue you `Nginx Proxy Manager` to configure the `https` proxy to our WordPress site.
+
+### Nginx Proxy Manager Configuration part 2
+
+Log back into `Nginx Proxy Manager` and click on the `Proxy Hosts` option within the `Hosts` menu. Add a new host and set the `Hostname` to `<your-server-ip>`, with the port of `8000`. I'm tired so stopping here for now.
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
