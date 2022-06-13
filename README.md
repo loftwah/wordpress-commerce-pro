@@ -411,6 +411,12 @@ The default credentials are Email address: `admin@example.com` and Password: `ch
 
 ![Nginx Proxy Manager](static/nginx-proxy-manager-2.png)
 
+Once you have logged in you'll be asked to change your credentials, which you can choose yourself.
+
+Change your password, you'll need to type the initial `changeme` password and then your own twice. You should see something that looks like this.
+
+![Nginx Proxy Manager](static/nginx-proxy-manager-3.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
