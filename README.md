@@ -503,6 +503,19 @@ Now we can continue you `Nginx Proxy Manager` to configure the `https` proxy to 
 
 Log back into `Nginx Proxy Manager` and click on the `Proxy Hosts` option within the `Hosts` menu. Add a new host and set the `Hostname` to `<your-server-ip>`, with the port of `8000`. I'm tired so stopping here for now.
 
+I ran into some issues here that was probably the cache. My settings are as follows:
+
+```bash
+Domain Names: wpcommerrce.pro www.wpcommerce.pro
+Scheme: http
+Forward Hostname/IP: <your-server-ip>
+Forward Port: 8000
+```
+
+Cache Assets and Block Common Exploits should be swithced on.
+
+In the `SSL` tab you can request a new certificate if you haven't already created one, or assign one from earlier. You will need to cover both the domain itself and all of its subdomains. `www.your-domain.com` and `your-domain.com` are both covered.
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
