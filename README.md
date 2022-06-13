@@ -459,14 +459,14 @@ Once this is set up we can continue to installing WordPress.
 
 Connect to your server using `ssh` and create the file `~/wordpress/docker-compose.yml` with the following contents:
 
-````yaml
+```yaml
 services:
   db:
     # We use a mariadb image which supports both amd64 & arm64 architecture
     image: mariadb:10.6.4-focal
     # If you really want to use MySQL, uncomment the following line
     #image: mysql:8.0.27
-    command: '--default-authentication-plugin=mysql_native_password'
+    command: "--default-authentication-plugin=mysql_native_password"
     volumes:
       - db_data:/var/lib/mysql
     restart: always
@@ -490,7 +490,10 @@ services:
       - WORDPRESS_DB_NAME=wordpress
 volumes:
   db_data:
-  ```
+```
+
+Save the file
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
@@ -542,7 +545,7 @@ Configure Git
 ```bash
 git config --global user.name "Dean Lofts"
 git config --global user.email "dean@deanlofts.xyz"
-````
+```
 
 To sign your work with GPG, you can follow the following steps:
 
