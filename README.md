@@ -451,7 +451,7 @@ My domain was temporarily suspended and it looks like it was because I never rec
 
 Sign into `Nginx Proxy Manager` and click on the `SSL Certificates` tab. Add an SSL certificate for your domain, and also an SSL certificate for a wildcare of all of your subdomains if you want the convenience. You will need your `API` key from Cloudflare to set this up. Sign into Cloudflare at this [URL](https://dash.cloudflare.com/profile/api-tokens) to get access to your `API` key.
 
-![Great Success](static/nginx-proxy=manager-4.png)
+![Great Success](static/nginx-proxy-manager-4.png)
 
 Once this is set up we can continue to installing WordPress.
 
