@@ -131,7 +131,7 @@ Now, you should be able to hit your domain if you have made it through the part 
 
 ![cloudflare](static/nginx-proxy-manager-4.png)
 
-`Congraulations! You have successfully set up your DNS with Cloudflare.`
+`Congraulations! You have successfully set up your DNS with Cloudflare.` The next stage is [here](#) Nginx Proxy Manager TBA.
 
 ## Install and set up WordPress on your server
 
@@ -447,6 +447,50 @@ My domain was temporarily suspended and it looks like it was because I never rec
 
 ![Great Success](static/great-success-1.png)
 
+#### Nginx Proxy Manager Configuration
+
+Sign into `Nginx Proxy Manager` and click on the `SSL Certificates` tab. Add an SSL certificate for your domain, and also an SSL certificate for a wildcare of all of your subdomains if you want the convenience. You will need your `API` key from Cloudflare to set this up. Sign into Cloudflare at this [URL](https://dash.cloudflare.com/profile/api-tokens) to get access to your `API` key.
+
+![Great Success](static/nginx-proxy=manager-4.png)
+
+Once this is set up we can continue to installing WordPress.
+
+### WordPress installation and configuration
+
+Connect to your server using `ssh` and create the file `~/wordpress/docker-compose.yml` with the following contents:
+
+````yaml
+services:
+  db:
+    # We use a mariadb image which supports both amd64 & arm64 architecture
+    image: mariadb:10.6.4-focal
+    # If you really want to use MySQL, uncomment the following line
+    #image: mysql:8.0.27
+    command: '--default-authentication-plugin=mysql_native_password'
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=somewordpress
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    expose:
+      - 3306
+      - 33060
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - 80:80
+    restart: always
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_NAME=wordpress
+volumes:
+  db_data:
+  ```
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
@@ -498,7 +542,7 @@ Configure Git
 ```bash
 git config --global user.name "Dean Lofts"
 git config --global user.email "dean@deanlofts.xyz"
-```
+````
 
 To sign your work with GPG, you can follow the following steps:
 
