@@ -453,11 +453,9 @@ Sign into `Nginx Proxy Manager` and click on the `SSL Certificates` tab. Add an 
 
 ![Great Success](static/nginx-proxy-manager-4.png)
 
-Once this is set up we can continue to installing WordPress.
-
 ### WordPress installation and configuration
 
-Connect to your server using `ssh` and create the file `~/wordpress/docker-compose.yml` with the following contents:
+Connect to your server using `ssh` and create the file `~/wordpress/docker-compose.yml` with the following contents: Make sure you update toe variables with your own information.
 
 ```yaml
 services:
@@ -481,7 +479,7 @@ services:
   wordpress:
     image: wordpress:latest
     ports:
-      - 80:80
+      - 8081:80
     restart: always
     environment:
       - WORDPRESS_DB_HOST=db
@@ -492,7 +490,7 @@ volumes:
   db_data:
 ```
 
-Save the file
+Save the file and run `docker-compose up -d`. We changed the `port` to `8081` so that we can access the WordPress site at `http://<your-server-ip>:8081/`
 
 ## Install the right plugins to enhance your store
 
