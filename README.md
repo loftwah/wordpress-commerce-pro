@@ -491,7 +491,7 @@ volumes:
   wordpress_data: {}
 ```
 
-Save the file and run `docker-compose up -d`. We changed the `port` to `8081` so that we can access the WordPress site at `http://<your-server-ip>:8081/`
+Save the file and run `docker-compose up -d`. We changed the `port` to `8000` so that we can access the WordPress site at `http://<your-server-ip>:8000/`
 
 ## Install the right plugins to enhance your store
 
