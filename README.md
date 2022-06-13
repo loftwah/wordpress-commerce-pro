@@ -417,6 +417,12 @@ Change your password, you'll need to type the initial `changeme` password and th
 
 ![Nginx Proxy Manager](static/nginx-proxy-manager-3.png)
 
+### namecheap domain issue
+
+My domain was temporarily suspended and it looks like it was because I never received an email where I needed to verify my details. I was able to have the email re-sent and it worked this time around, and the domain should be unsuspended.
+
+![Great Success](static/great-success-1.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
