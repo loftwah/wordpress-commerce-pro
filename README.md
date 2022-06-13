@@ -493,6 +493,10 @@ volumes:
 
 Save the file and run `docker-compose up -d`. We changed the `port` to `8000` so that we can access the WordPress site at `http://<your-server-ip>:8000/`
 
+You should be able to access WordPress on your web server now. Got to your domain and you should see the following. This assumes that you have set up your domain earlier on.
+
+![WordPress](static/wordpress-1.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
