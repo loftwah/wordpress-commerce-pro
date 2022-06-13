@@ -458,36 +458,37 @@ Sign into `Nginx Proxy Manager` and click on the `SSL Certificates` tab. Add an 
 Connect to your server using `ssh` and create the file `~/wordpress/docker-compose.yml` with the following contents: Make sure you update toe variables with your own information.
 
 ```yaml
+version: "3.9"
+
 services:
   db:
-    # We use a mariadb image which supports both amd64 & arm64 architecture
-    image: mariadb:10.6.4-focal
-    # If you really want to use MySQL, uncomment the following line
-    #image: mysql:8.0.27
-    command: "--default-authentication-plugin=mysql_native_password"
+    image: mysql:5.7
     volumes:
       - db_data:/var/lib/mysql
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=somewordpress
-      - MYSQL_DATABASE=wordpress
-      - MYSQL_USER=wordpress
-      - MYSQL_PASSWORD=wordpress
-    expose:
-      - 3306
-      - 33060
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+
   wordpress:
+    depends_on:
+      - db
     image: wordpress:latest
+    volumes:
+      - wordpress_data:/var/www/html
     ports:
-      - 8081:80
+      - "8000:80"
     restart: always
     environment:
-      - WORDPRESS_DB_HOST=db
-      - WORDPRESS_DB_USER=wordpress
-      - WORDPRESS_DB_PASSWORD=wordpress
-      - WORDPRESS_DB_NAME=wordpress
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
 volumes:
-  db_data:
+  db_data: {}
+  wordpress_data: {}
 ```
 
 Save the file and run `docker-compose up -d`. We changed the `port` to `8081` so that we can access the WordPress site at `http://<your-server-ip>:8081/`
