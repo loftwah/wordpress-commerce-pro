@@ -516,6 +516,10 @@ Cache Assets and Block Common Exploits should be swithced on.
 
 In the `SSL` tab you can request a new certificate if you haven't already created one, or assign one from earlier. You will need to cover both the domain itself and all of its subdomains. `www.your-domain.com` and `your-domain.com` are both covered.
 
+Once this is set up and ready you should be able to access your WordPress site at `https://wpcommerce.pro`, obvious replacing the domain with your own.
+
+![WordPress](static/wordpress-2.png)
+
 ## Install the right plugins to enhance your store
 
 ## Install the right theme to enhance your store
