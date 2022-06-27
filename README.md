@@ -520,7 +520,15 @@ Once this is set up and ready you should be able to access your WordPress site a
 
 ![WordPress](static/wordpress-2.png)
 
+## WordPress Initial Login
+
+You can log in to the administrative portal of your WordPress site at `https://wpcommerce.pro/wp-admin/` using the credentaisl you chose earlier. Once you have logged in you can begin installing plugins and themes. I will be doing this initially with the GUI but I will also cover how to do it via the `CLI`, and eventually `Docker` and `Kubernetes`.
+
+I'm going to assume you can figure out how to install plugins and themes. If you can't then, ugh I guess we'll add that later but maybe you should go check out [WordPress.org](https://wordpress.org/support/article/new-to-wordpress-where-to-start/). Click on the `Plugins` tab and click on the `Add New` button.
+
 ## Install the right plugins to enhance your store
+
+I am going to first go through the plugins that I use for the store, but I am also going to include a bunch of awesome plugins that can help you with your journey into WordPress and its rich ecosystem.
 
 ## Install the right theme to enhance your store
 
