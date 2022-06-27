@@ -115,11 +115,11 @@ This part depends on you having your domain purchased and the DNS servers set up
 
 Add a record for your server, and leave the proxy switched off, for now. We will turn that on later. I set the following records.
 
-| Type  | Name | Content        | Proxy Status | TTL  |
-| ----- | ---- | -------------- | ------------ | ---- |
-| CNAME | www  | wpcommerce.pro | off          | Auto |
-| A     | \*   | your-server-ip | off          | Auto |
-| A     | @    | your-server-ip | off          | Auto |
+| Type  | Name |    Content     | Proxy Status | TTL  |
+| :---: | :--: | :------------: | :----------: | :--: |
+| CNAME | www  | wpcommerce.pro |     off      | Auto |
+|   A   |  \*  | your-server-ip |     off      | Auto |
+|   A   |  @   | your-server-ip |     off      | Auto |
 
 Once you have added the site, Cloudflare will prompt you to enable `auto HTTPS` and `auto minify`. I usually turn these on, but you can turn them off if you want.
 
