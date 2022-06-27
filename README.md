@@ -530,6 +530,71 @@ I'm going to assume you can figure out how to install plugins and themes. If you
 
 I am going to first go through the plugins that I use for the store, but I am also going to include a bunch of awesome plugins that can help you with your journey into WordPress and its rich ecosystem.
 
+### Cloudflare
+
+[Plugin Page](https://wordpress.org/plugins/cloudflare/)
+
+The Cloudflare plugin for WordPress is a great way to manage your DNS records and settings. It also allows you to optimize your site for speed and security. You will need an account to use this plugin and some of the features are paid. This plugin is an excellent choice if you are using Cloudflare as your DNS provider..
+
+### Email Log
+
+[Plugin Page](https://wordpress.org/plugins/email-log/)
+
+Email Log is a WordPress plugin that allows you to easily log and view all emails that were sent from WordPress.
+
+### WooCommerce
+
+WooCommerce is a great plugin that allows you to sell your products online. It is a great way to sell your products and it is a great way to sell your services.
+
+#### Facebook for WooCommerce
+
+[Plugin Page](https://wordpress.org/plugins/facebook-for-woocommerce/)
+
+This is the official Facebook for WooCommerce plugin that connects your WooCommerce website to Facebook. With this plugin, you can install the Facebook pixel, upload your online store catalog, and create a shop on your Facebook page, enabling you to easily run dynamic ads.
+
+#### Payment Gateway Based Fees and Discounts for WooCommerce
+
+[Plugin Page](https://wordpress.org/plugins/checkout-fees-for-woocommerce/)
+
+Payment Gateway Based Fees and Discounts for WooCommerce plugin extends WooCommerce by adding options to set fees or discounts based on customer selected payment gateway.
+
+Payment gateway based fees and discounts can be added to all payment gateways including:
+
+- Standard WooCommerce payment gateways: PayPal, Stripe and others
+- Fees and discounts can be set globally for all products, or on per product basis
+
+I can't remember why this plugin is important, but it got me out of a jam once and I had it listed.
+
+### Gitium
+
+[Plugin Page](https://wordpress.org/plugins/gitium/)
+
+Gitium enables continuous deployment for WordPress, integrating with tools such as Github, Bitbucket or Travis-CI. Theme or plugin updates, installs and removals are all automatically versioned. Ninja code edits from the WordPress editor are also tracked by the version control system.
+
+This plugin is out of date and unsupported but I intend to revive it and bring it back again at some point.
+
+### OG Tags
+
+[Plugin Page](https://wordpress.org/plugins/og-tags/)
+
+Features of “OG Tags”:
+
+Include type of object to Open Graph API (“website” for home and “article” for posts).
+Include the tags with properties in the page according with Open Graph API documentation.
+Include your ID as administrator for Social Plugins like Comments.
+Include your Page as publisher for Open Graph’s object.
+Include a default image to Home and posts without Featured Image.
+Use Featured Image how og:image (i.e. it will appear on Facebook’ Feed).
+Simple page with less configurations. We want to be simple! Automatic.
+
+You need to set Open Graph tags for your website to look normal on social media posts.
+
+### Toolbelt
+
+[Plugin Page](https://wordpress.org/plugins/wp-toolbelt/)
+
+Toolbelt is a plugin by Ben Gillbanks that is somewhat similar to the `Jetpack` plugin, but in a lighter and more focused way. It does not require a third party service to function, and it is easy to install. It can be used alongside the `Jetpack` plugin, but it is not required.
+
 ## Install the right theme to enhance your store
 
 ## Set up your WooCommerce store
