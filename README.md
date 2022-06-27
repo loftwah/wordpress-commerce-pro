@@ -565,6 +565,14 @@ Payment gateway based fees and discounts can be added to all payment gateways in
 
 I can't remember why this plugin is important, but it got me out of a jam once and I had it listed.
 
+#### Printful Integration for WooCommerce
+
+[Plugin Page](https://wordpress.org/plugins/printful-integration-for-woocommerce/)
+
+With Printful, you can focus on building your store. They’ll print, fulfill and ship your products for you. Simply upload your design, add it to your store, and they’ll do the rest.
+
+Printful offers more than 305+ products in various categories: apparel, home & living items, jewelry, accessories, and more! Once your orders start rolling in, they’ll fulfill and ship each one under your brand at their in-house and partner facilities, located globally.
+
 ### Gitium
 
 [Plugin Page](https://wordpress.org/plugins/gitium/)
@@ -572,6 +580,12 @@ I can't remember why this plugin is important, but it got me out of a jam once a
 Gitium enables continuous deployment for WordPress, integrating with tools such as Github, Bitbucket or Travis-CI. Theme or plugin updates, installs and removals are all automatically versioned. Ninja code edits from the WordPress editor are also tracked by the version control system.
 
 This plugin is out of date and unsupported but I intend to revive it and bring it back again at some point.
+
+### Jetpack
+
+[Plugin Page](https://wordpress.org/plugins/jetpack/)
+
+WordPress security, performance, marketing, and design tools — Jetpack is made by WordPress experts to make WP sites safer and faster, and help you grow your traffic.
 
 ### OG Tags
 
@@ -588,6 +602,12 @@ Use Featured Image how og:image (i.e. it will appear on Facebook’ Feed).
 Simple page with less configurations. We want to be simple! Automatic.
 
 You need to set Open Graph tags for your website to look normal on social media posts.
+
+### Site Kit by Google – Analytics, Search Console, AdSense, Speed
+
+[Plugin Page](https://wordpress.org/plugins/google-site-kit/)
+
+Site Kit is the official WordPress plugin from Google for insights about how people find and use your site. Site Kit is the one-stop solution to deploy, manage, and get insights from critical Google tools to make the site successful on the web. It provides authoritative, up-to-date insights from multiple Google products directly on the WordPress dashboard for easy access, all for free.
 
 ### Toolbelt
 
