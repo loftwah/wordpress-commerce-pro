@@ -546,11 +546,15 @@ Email Log is a WordPress plugin that allows you to easily log and view all email
 
 WooCommerce is a great plugin that allows you to sell your products online. It is a great way to sell your products and it is a great way to sell your services.
 
+(_required_)
+
 #### Facebook for WooCommerce
 
 [Plugin Page](https://wordpress.org/plugins/facebook-for-woocommerce/)
 
 This is the official Facebook for WooCommerce plugin that connects your WooCommerce website to Facebook. With this plugin, you can install the Facebook pixel, upload your online store catalog, and create a shop on your Facebook page, enabling you to easily run dynamic ads.
+
+(_required for Facebook integration_)
 
 #### Payment Gateway Based Fees and Discounts for WooCommerce
 
@@ -572,6 +576,8 @@ I can't remember why this plugin is important, but it got me out of a jam once a
 With Printful, you can focus on building your store. They’ll print, fulfill and ship your products for you. Simply upload your design, add it to your store, and they’ll do the rest.
 
 Printful offers more than 305+ products in various categories: apparel, home & living items, jewelry, accessories, and more! Once your orders start rolling in, they’ll fulfill and ship each one under your brand at their in-house and partner facilities, located globally.
+
+(_required for Printful integration_)
 
 ### Gitium
 
@@ -609,6 +615,8 @@ You need to set Open Graph tags for your website to look normal on social media 
 
 Site Kit is the official WordPress plugin from Google for insights about how people find and use your site. Site Kit is the one-stop solution to deploy, manage, and get insights from critical Google tools to make the site successful on the web. It provides authoritative, up-to-date insights from multiple Google products directly on the WordPress dashboard for easy access, all for free.
 
+(_required for Google integration_)
+
 ### Toolbelt
 
 [Plugin Page](https://wordpress.org/plugins/wp-toolbelt/)
@@ -625,6 +633,8 @@ Use the “Two-Factor Options” section under “Users” → “Your Profile�
 - Time Based One-Time Passwords (TOTP)
 - FIDO Universal 2nd Factor (U2F)
 - Backup Codes
+
+This plugin is not required for WordPress but I highly recommend it because passwords are very easily broken today.
 
 ## Install the right theme to enhance your store
 
