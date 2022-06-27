@@ -615,6 +615,17 @@ Site Kit is the official WordPress plugin from Google for insights about how peo
 
 Toolbelt is a plugin by Ben Gillbanks that is somewhat similar to the `Jetpack` plugin, but in a lighter and more focused way. It does not require a third party service to function, and it is easy to install. It can be used alongside the `Jetpack` plugin, but it is not required.
 
+### Two-Factor
+
+[Plugin Page](https://wordpress.org/plugins/two-factor/)
+
+Use the “Two-Factor Options” section under “Users” → “Your Profile” to enable and configure one or multiple two-factor authentication providers for your account:
+
+- Email codes
+- Time Based One-Time Passwords (TOTP)
+- FIDO Universal 2nd Factor (U2F)
+- Backup Codes
+
 ## Install the right theme to enhance your store
 
 ## Set up your WooCommerce store
